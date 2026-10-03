@@ -1,0 +1,14 @@
+# build output
+www-dist/
+android/assets/
+android/build/
+*.apk
+*.idsig
+# signing keys never go into the repository
+*.jks
+*.keystore
+keystore-password.txt
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc
